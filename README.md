@@ -4,6 +4,7 @@
 
 `I actually made it because im to dumb for bs4 and requests`  
 *Note: This package was created to provide a simpler alternative to using libraries like BeautifulSoup and Requests directly.*
+My Discord: [Tamino1230](https://discord.com/users/702893526303637604)
 
 ## Features
 
