@@ -22,6 +22,27 @@
 2. Place the `GetWeb` folder in your project directory.
 3. Ensure the `GetWeb` folder contains the `getweb` module.
 
+### Option 1.5: Insert Local Python Folder
+
+To add the `GetWeb` package to your local Python environment, follow these steps:
+
+1. Find the folder where Python is installed on your computer:
+    - **Windows**: Look for one of these paths:
+        - `C:\Users\<YourUsername>\AppData\Local\Programs\Python\Python<version>\Lib\site-packages`
+        - `C:\Python<version>\Lib\site-packages` / `C:\Python<version>\Lib` (if Python is installed directly in `C:\Python`)
+    - **macOS/Linux**: Check one of these paths:
+        - `/usr/local/lib/python<version>/site-packages`
+        - `~/.local/lib/python<version>/site-packages`
+
+2. Copy the `GetWeb` folder into the `site-packages` or `Lib (only Windows)` directory.
+
+3. Verify the installation by running the following command in your Python environment:
+
+    ```python
+    import GetWeb
+    print("GetWeb package installed successfully!")
+    ```
+
 ### Option 2: Using `pip`
 
 (Not yet available on PyPI. Use manual installation for now.)
