@@ -110,7 +110,7 @@ print(web.get_headings(level=2))
 ### Example: Downloading a File
 
 ```python
-from GetWeb.getweb.response import download_file
+from getweb.response import download_file
 
 # Download a file from a URL
 success = download_file("https://example.com/file.zip", "file.zip")
@@ -123,7 +123,7 @@ else:
 ### Example: Fetching Headers
 
 ```python
-from GetWeb.getweb.response import get_headers
+from getweb.response import get_headers
 
 # Get headers from a URL
 headers = get_headers("https://example.com")
@@ -140,7 +140,7 @@ The `GetWeb` package also includes utility functions for common web-related task
 #### Example: Validating a URL
 
 ```python
-from GetWeb.getweb.utils import is_valid_url
+from getweb.utils import is_valid_url
 
 # Check if a URL is valid
 url = "https://example.com"
@@ -153,7 +153,7 @@ else:
 #### Example: Prettifying HTML
 
 ```python
-from GetWeb.getweb.utils import prettify_html
+from getweb.utils import prettify_html
 
 # Prettify raw HTML content
 raw_html = "<html><body><h1>Title</h1></body></html>"
@@ -175,7 +175,7 @@ print(emails)
 #### Example: Extracting Phone Numbers
 
 ```python
-from GetWeb.getweb.utils import extract_phone_numbers
+from getweb.utils import extract_phone_numbers
 
 # Extract phone numbers from text
 text = "Call us at +1-800-555-1234 or (123) 456-7890." # text could be the HTML
@@ -186,7 +186,7 @@ print(phone_numbers)
 #### Example: Getting the Base URL
 
 ```python
-from GetWeb.getweb.utils import get_base_url
+from getweb.utils import get_base_url
 
 # Extract the base URL from a full URL
 full_url = "https://example.com/path/to/resource"
