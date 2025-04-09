@@ -40,8 +40,8 @@ To add the `GetWeb` package to your local Python environment, follow these steps
 3. Verify the installation by running the following command in your Python environment:
 
     ```python
-    import GetWeb
-    print("GetWeb package installed successfully!")
+    import getweb
+    print("getweb package installed successfully!")
     ```
 
 ### Option 2: Using `pip`
@@ -53,7 +53,7 @@ To add the `GetWeb` package to your local Python environment, follow these steps
 ### Importing the Package
 
 ```python
-from GetWeb.getweb import getweb
+from getweb import getweb
 ```
 
 ### Example: Fetching a Web Page
