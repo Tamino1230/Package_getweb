@@ -27,7 +27,7 @@ import getweb.utils as utils
 from bs4 import BeautifulSoup
 
 __author__ = "https://github.com/Tamino1230"
-__repo__ = ""
+__repo__ = "https://github.com/Tamino1230/Package_getweb"
 __all__ = ["getweb", resp, utils, "BeautifulSoup", "requests"]
 __version__ = "v0.0.1"
 
